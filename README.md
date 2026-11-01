@@ -16,25 +16,25 @@ Follow these steps to run this project on your local machine.
    cd web-catering
 
 **Install PHP Dependencies**
-composer install
+<br>composer install
 
 **Environment Configuration**
-Salin file .env.example menjadi .env dan sesuaikan konfigurasi database Anda.
-
+<br>Salin file .env.example menjadi .env dan sesuaikan konfigurasi database Anda.
+<br><br>
 cp .env.example .env
-Buka file .env dan atur koneksi database (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
-
+<br>Buka file .env dan atur koneksi database (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
+<br><br>
 **Generate Application Key**
-php artisan key:generate
-
+<br>php artisan key:generate
+<br><br>
 **Run Database Migrations & Seeder (Opsional)**
-Jika proyek Anda menyertakan data dummy untuk demo:
-php artisan migrate --seed
-
+<br>Jika proyek Anda menyertakan data dummy untuk demo:
+<br>php artisan migrate --seed
+<br><br>
 **Install Frontend Dependencies & Build Assets**
-npm install
-npm run build
-
+<br>npm install
+<br>npm run build
+<br><br>
 **Start the Development Server**
-php artisan serve
-Aplikasi akan berjalan di http://localhost:8000.
+<br>php artisan serve
+<br>Aplikasi akan berjalan di http://localhost:8000.
